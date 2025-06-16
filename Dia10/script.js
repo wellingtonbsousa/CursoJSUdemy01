@@ -1,50 +1,25 @@
 //=========================
-// Data e Hora
-//=========================
-// let agora = new Date()
-// console.log(agora)
-
-// let dataEspecifica = new Date(2024, 5, 20, 10, 35, 0) // mês inicia 0
-// console.log(dataEspecifica)
-
-// let dataString = new Date('2024/10/20 10:35:00')
-// console.log(dataString)
-
-//=========================
-// Data e Hora - Metodos
-//=========================
-// let data = new Date()
-// console.log(data)
-
-// console.log(data.getDate()) // Dia do mês
-// console.log(data.getDay()) // dia da semana de 0 a 6 (0-Domingo)
-// console.log(data.getMonth()) // mes (0-11) 0-janeiro
-// console.log(data.getFullYear()) // ano
-// console.log(data.getHours()) // hora
-// console.log(data.getMinutes()) // minutos
-// console.log(data.getSeconds()) // segundos
-
-//=========================
-// Data e Hora - Metodos  - Configuração
-//=========================
-//let data = new Date()
-//data.setDate(25)
-//data.setMonth(7)
-//data.setFullYear(1961)
-//console.log(data)
-
-//=========================
-// Data e Hora - Metodos  - Diferença de dias entre datas especificas
-//=========================
-// let inicio = new Date('2023/10/15')
-// let fim = new Date('2023/11/15')
-// let totalDias = (fim - inicio) / (1000 * 3600 * 24)
-// console.log(totalDias)
-
-//=========================
-// Data e Hora - Metodos  - Idioma
+// Arrays
 //=========================
 
-let data
-data = Intl.DateTimeFormat('pt-BR').format(data)
-console.log(data)
+let cart = ['Agua', 'Arroz', 'Carne', 'Feijão']
+// console.log(cart)
+// console.log(cart[3])
+// console.log(`A minha comida favorita é ${cart[1]} e ${cart[3]}`)
+// console.log(`A minha lista de compras contém: ${cart}`)
+
+//=========================
+// Alteracao
+//=========================
+
+// cart[1] = 'Laranja'
+// console.log(`A minha lista de compras contém: ${cart}`)
+
+// let numbers = [10, 20, 33, 40, 5, 13]
+// console.log(numbers)
+
+// console.log(numbers[0] + numbers[2])
+
+let petShop = ['Dogs', 'Cats', 'Birds', 'Hamsters']
+console.log(`In the second cage we have: ${petShop[2]}`)
+
